@@ -1,0 +1,46 @@
+.event-join-container {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.header-section {
+  background: linear-gradient(135deg, #1976d2, #42a5f5);
+  color: white;
+  text-align: center;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.event-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-title {
+  font-weight: 500;
+  color: #1976d2;
+}
+
+.event-description {
+  color: #424242;
+}
+
+.join-button {
+  font-weight: 500;
+}
+
+.join-button:hover {
+  background-color: #1565c0;
+}
