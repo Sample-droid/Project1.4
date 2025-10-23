@@ -45,13 +45,16 @@ const eventSchema = new mongoose.Schema({
       message: 'Invalid category. Must be one of: Food Donation, Tree Planting, Cleaning'
     }
   },
+
   user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User', 
-    required: true
+    
+    // required: true
   }
 }, {
   timestamps: true
+
 });
 
 // Index for faster queries on code

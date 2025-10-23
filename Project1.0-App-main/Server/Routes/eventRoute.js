@@ -78,4 +78,6 @@ router.get('/events/:id', async (req, res, next) => {
     next(error); // Pass to global error handler
   }
 });
+
+
 module.exports = router;
